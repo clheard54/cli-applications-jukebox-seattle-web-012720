@@ -40,7 +40,6 @@ def play(songs_array)
     puts "Playing #{songs_array[user_request-1]}"
   else
     puts "Invalid input, please try again."
-    play(songs_array)
   end
 end
 
