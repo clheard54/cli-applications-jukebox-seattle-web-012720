@@ -22,10 +22,8 @@ end
 def list(songs_array)
   numbered_list = []
   songs_array.each_with_index {|song, index|
-    data = "#{index+1}. #{song}"
-    numbered_list << data
+    puts "#{index+1}. #{song}\n"
   }
-  puts numbered_list.join("\n")
 end
 
 def play(songs_array)
